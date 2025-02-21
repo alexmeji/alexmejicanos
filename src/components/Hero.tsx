@@ -2,6 +2,7 @@ import { FiDownload } from 'react-icons/fi';
 import { Button } from './ui/button';
 import Socials from './Socials';
 import ProfilePicture from './ProfilePicture';
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -23,14 +24,20 @@ export default function Hero() {
 
           {/* Buttons and socials*/}
           <div className="flex flex-col xl:flex-row items-center gap-8">
-            <Button
-              variant="outline"
-              size="lg"
-              className="bg-transparent rounded-full text-accent-default border-2 border-accent-default uppercase flex items-center gap-2 hover:bg-accent-default hover:text-black transition-all"
+            <Link
+              href="https://drive.google.com/file/d/1Knoajs4z4RWmMquTaM52ZVd_5R76dc41/view?usp=sharing"
+              passHref
+              target="_blank"
             >
-              <span>Download CV</span>
-              <FiDownload className="text-xl" />
-            </Button>
+              <Button
+                variant="outline"
+                size="lg"
+                className="bg-transparent rounded-full text-accent-default border-2 border-accent-default uppercase flex items-center gap-2 hover:bg-accent-default hover:text-black transition-all"
+              >
+                <span>Download CV</span>
+                <FiDownload className="text-xl" />
+              </Button>
+            </Link>
             <div className="mb-8 xl:mb-0">
               <Socials
                 containerStyles="flex gap-6"

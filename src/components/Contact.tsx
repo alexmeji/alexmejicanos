@@ -18,7 +18,7 @@ export default function Contact() {
           passHref
           target="_blank"
         >
-          <Button className="bg-accent-default p-10 text-4xl rounded-full whitespace-nowrap text-black font-semibold">
+          <Button className="bg-accent-default p-10 text-4xl rounded-full whitespace-nowrap text-black font-semibold hover:text-white">
             Schedule a Call
           </Button>
         </Link>

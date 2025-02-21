@@ -72,7 +72,7 @@ const about = {
 const experience = {
   icon: '',
   title: 'Experience',
-  description: 'I have worked as a full stack developer for 5 years.',
+  description: 'I have worked as a full stack developer for 12 years.',
   jobs: [
     {
       company: 'MangoChango',
