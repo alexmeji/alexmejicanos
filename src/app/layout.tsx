@@ -17,6 +17,21 @@ export const metadata: Metadata = {
   title: 'Alex Mejicanos',
   description:
     'Alex Mejicanos - Fullstack Developer / Freelancer / Senior Software Engineer / Software Architect / Speaker / Mentor',
+  keywords: [
+    'Alex Mejicanos',
+    'Fullstack Developer',
+    'Freelancer',
+    'Senior Software Engineer',
+    'Software Architect',
+    'Speaker',
+    'Mentor',
+    'Guatemala',
+    'Latam',
+    'React',
+    'Node.js',
+    'TypeScript',
+    'JavaScript',
+  ],
 };
 
 export default function RootLayout({
