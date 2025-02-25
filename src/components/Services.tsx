@@ -6,45 +6,46 @@ const services = [
     num: '01',
     title: 'Web Development',
     description:
-      'We build responsive and high-performance websites that serve as powerful marketing tools and bring memorable brand experiences. Our team specializes in the latest web technologies to ensure your site is fast, secure, and scalable.',
+      'Develop fast and secure websites that adapt to any device, using the latest technologies to ensure an optimal user experience.',
     href: '#',
   },
   {
     num: '02',
     title: 'Mobile Apps',
     description:
-      'Our versatile team of developers design and develop custom mobile apps for both iOS and Android platforms. We focus on creating user-friendly and feature-rich applications that meet your business needs and provide a seamless user experience.',
+      'Design and develop custom mobile applications for iOS and Android, focusing on usability and meeting the specific needs of your business.',
     href: '#',
   },
   {
     num: '03',
     title: 'E-Commerce',
     description:
-      'We create custom e-commerce solutions that are tailored to your business needs. Our team of experts will help you build a user-friendly online store that drives sales and increases customer engagement.',
+      'Create custom e-commerce solutions that facilitate online sales and improve customer interaction, helping you increase your sales.',
     href: '#',
   },
   {
     num: '04',
-    title: 'IA Automation',
+    title: 'AI Automation',
     description:
-      'Our IA automation services help businesses streamline their operations and improve efficiency. We use the latest technologies to automate repetitive tasks, reduce human error, and increase productivity.',
+      'Offer AI automation services to optimize processes and increase efficiency, reducing human errors and improving productivity.',
     href: '#',
   },
   {
     num: '05',
     title: 'Training',
     description:
-      'We offer training programs for businesses and individuals looking to improve their digital skills. Our courses cover a wide range of topics, including web development, digital marketing, and data analytics.',
+      'Provide training programs in digital skills, covering topics such as web development, digital marketing, and data analysis, for companies and individuals.',
     href: '#',
   },
   {
     num: '06',
     title: 'Integrations & APIs',
     description:
-      'We help businesses integrate their systems and applications to improve efficiency and streamline operations. Our team of experts will work with you to develop custom APIs and integrations that meet your unique business needs.',
+      'Help integrate systems and applications to improve operational efficiency, developing custom APIs and integrations according to your business needs.',
     href: '#',
   },
 ];
+
 export default function Services() {
   return (
     <section className="container mx-auto py-12" id="services">
